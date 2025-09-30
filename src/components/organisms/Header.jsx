@@ -1,9 +1,15 @@
-import React from "react"
+import React, { useContext } from "react"
 import { NavLink } from "react-router-dom"
+import { useSelector } from "react-redux"
 import { cn } from "@/utils/cn"
 import ApperIcon from "@/components/ApperIcon"
+import Button from "@/components/atoms/Button"
+import { AuthContext } from "../App"
 
 const Header = () => {
+  const { logout } = useContext(AuthContext)
+  const { user, isAuthenticated } = useSelector((state) => state.user)
+  
   const navItems = [
     { path: "/today", label: "Today", icon: "Home" },
     { path: "/tasks", label: "Tasks", icon: "CheckSquare" },
@@ -46,6 +52,26 @@ const Header = () => {
             ))}
           </nav>
 
+          {/* User section and logout */}
+          <div className="hidden md:flex items-center gap-4">
+            {isAuthenticated && user && (
+              <div className="flex items-center gap-3">
+                <span className="text-sm text-gray-600">
+                  Welcome, {user.firstName || user.name || "User"}
+                </span>
+                <Button
+                  variant="outline"
+                  size="sm"
+                  onClick={logout}
+                  className="inline-flex items-center gap-2"
+                >
+                  <ApperIcon name="LogOut" className="h-4 w-4" />
+                  Logout
+                </Button>
+              </div>
+            )}
+          </div>
+
           {/* Mobile menu button */}
           <div className="md:hidden">
             <button className="p-2 rounded-md text-gray-700 hover:bg-gray-100">
@@ -75,6 +101,21 @@ const Header = () => {
               </NavLink>
             ))}
           </div>
+          
+          {/* Mobile user section */}
+          {isAuthenticated && user && (
+            <div className="flex items-center justify-center mt-3 pt-3 border-t border-gray-200">
+              <Button
+                variant="outline"
+                size="sm"
+                onClick={logout}
+                className="inline-flex items-center gap-2"
+              >
+                <ApperIcon name="LogOut" className="h-4 w-4" />
+                Logout
+              </Button>
+            </div>
+          )}
         </nav>
       </div>
     </header>
