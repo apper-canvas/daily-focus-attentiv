@@ -1,0 +1,62 @@
+[
+  {
+    "Id": 1,
+    "title": "Project Alpha Kickoff Meeting",
+    "datetime": "2024-01-12T10:00:00.000Z",
+    "duration": 60,
+    "participants": ["john.doe@company.com", "sarah.smith@company.com", "mike.wilson@company.com"],
+    "agenda": "Discuss project scope, timeline, team assignments, and resource allocation for the new mobile app development project.",
+    "status": "upcoming",
+    "createdAt": "2024-01-08T15:30:00.000Z"
+  },
+  {
+    "Id": 2,
+    "title": "Weekly Team Standup",
+    "datetime": "2024-01-12T09:00:00.000Z",
+    "duration": 30,
+    "participants": ["team@company.com"],
+    "agenda": "Weekly progress updates, blockers, and upcoming priorities. Quick sync on current sprint status.",
+    "status": "upcoming",
+    "createdAt": "2024-01-10T08:00:00.000Z"
+  },
+  {
+    "Id": 3,
+    "title": "Client Presentation Review",
+    "datetime": "2024-01-13T14:00:00.000Z",
+    "duration": 90,
+    "participants": ["client@company.com", "sales@company.com", "design@company.com"],
+    "agenda": "Present quarterly results, discuss upcoming initiatives, and gather feedback for Q2 planning.",
+    "status": "upcoming",
+    "createdAt": "2024-01-09T11:20:00.000Z"
+  },
+  {
+    "Id": 4,
+    "title": "1:1 with Manager",
+    "datetime": "2024-01-11T15:00:00.000Z",
+    "duration": 45,
+    "participants": ["manager@company.com"],
+    "agenda": "Career development discussion, current project feedback, and goal setting for Q1.",
+    "status": "completed",
+    "createdAt": "2024-01-05T12:00:00.000Z"
+  },
+  {
+    "Id": 5,
+    "title": "Design System Workshop",
+    "datetime": "2024-01-15T13:00:00.000Z",
+    "duration": 120,
+    "participants": ["design-team@company.com", "frontend@company.com"],
+    "agenda": "Collaborative session to establish design tokens, component library standards, and implementation guidelines.",
+    "status": "upcoming",
+    "createdAt": "2024-01-07T16:45:00.000Z"
+  },
+  {
+    "Id": 6,
+    "title": "Coffee Chat with New Hire",
+    "datetime": "2024-01-09T11:00:00.000Z",
+    "duration": 30,
+    "participants": ["newbie@company.com"],
+    "agenda": "Welcome conversation, answer questions about company culture, and provide onboarding support.",
+    "status": "completed",
+    "createdAt": "2024-01-08T09:15:00.000Z"
+  }
+]

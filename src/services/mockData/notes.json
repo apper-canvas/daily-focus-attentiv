@@ -1,0 +1,42 @@
+[
+  {
+    "Id": 1,
+    "title": "Meeting Ideas - Project Alpha",
+    "content": "Key discussion points for tomorrow's project kickoff:\n\n1. Define project scope and deliverables\n2. Establish timeline and milestones\n3. Assign team roles and responsibilities\n4. Set up communication channels\n5. Budget allocation and resources\n\nRemember to bring the wireframes and mockups to show the design direction.",
+    "tags": ["work", "project-alpha", "meetings"],
+    "createdAt": "2024-01-10T14:30:00.000Z",
+    "updatedAt": "2024-01-11T09:15:00.000Z"
+  },
+  {
+    "Id": 2,
+    "title": "Recipe - Homemade Pasta Sauce",
+    "content": "Ingredients:\n- 2 cans crushed tomatoes\n- 1 onion, diced\n- 4 cloves garlic, minced\n- 2 tbsp olive oil\n- 1 tsp oregano\n- 1 tsp basil\n- Salt and pepper to taste\n\nInstructions:\n1. Heat olive oil in large pan\n2. Sauté onion until translucent\n3. Add garlic, cook for 1 minute\n4. Add tomatoes and seasonings\n5. Simmer for 20 minutes\n\nNotes: Add a pinch of sugar if too acidic. Fresh basil is amazing if available!",
+    "tags": ["recipes", "cooking", "italian"],
+    "createdAt": "2024-01-09T19:45:00.000Z",
+    "updatedAt": "2024-01-09T19:45:00.000Z"
+  },
+  {
+    "Id": 3,
+    "title": "Book Recommendations from Sarah",
+    "content": "Sarah recommended these books during our coffee chat:\n\n📚 Fiction:\n- The Seven Husbands of Evelyn Hugo\n- Where the Crawdads Sing\n- The Midnight Library\n\n📚 Non-Fiction:\n- Atomic Habits by James Clear\n- The Subtle Art of Not Giving a F*ck\n- Educated by Tara Westover\n\nShe said the Midnight Library really made her think about life choices. Adding these to my reading list!",
+    "tags": ["books", "recommendations", "reading-list"],
+    "createdAt": "2024-01-08T16:20:00.000Z",
+    "updatedAt": "2024-01-08T16:20:00.000Z"
+  },
+  {
+    "Id": 4,
+    "title": "Workout Plan - January Goals",
+    "content": "January fitness goals:\n\n🎯 Main objective: Build consistent exercise routine\n\nWeekly plan:\n- Monday: Upper body strength\n- Tuesday: Cardio (30 min)\n- Wednesday: Lower body strength\n- Thursday: Yoga or stretching\n- Friday: Full body workout\n- Weekend: Hiking or outdoor activity\n\nProgress tracking:\n- Week 1: 3/5 workouts completed ✓\n- Week 2: 4/5 workouts completed ✓\n- Week 3: Target 5/5 workouts\n\nFeeling stronger already! Need to focus on consistency over intensity.",
+    "tags": ["fitness", "goals", "health"],
+    "createdAt": "2024-01-01T10:00:00.000Z",
+    "updatedAt": "2024-01-11T07:30:00.000Z"
+  },
+  {
+    "Id": 5,
+    "title": "Travel Ideas - Summer 2024",
+    "content": "Potential destinations for summer vacation:\n\n🌍 Europe Options:\n- Iceland: Northern lights, Blue Lagoon, Ring Road\n- Portugal: Lisbon, Porto, coastal towns\n- Greece: Santorini, Mykonos, Athens\n\n🏔️ Adventure Options:\n- New Zealand: Hiking, Lord of the Rings locations\n- Patagonia: Torres del Paine, glaciers\n- Canadian Rockies: Banff, Jasper\n\n💰 Budget considerations:\n- Europe: $3000-4000\n- Adventure trips: $2500-3500\n- Need to book by March for best prices\n\nLeaning towards Portugal - great food, culture, and more affordable!",
+    "tags": ["travel", "vacation", "planning"],
+    "createdAt": "2024-01-06T21:15:00.000Z",
+    "updatedAt": "2024-01-10T12:45:00.000Z"
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "Id": 1,
+    "title": "Review quarterly sales report",
+    "description": "Analyze Q4 performance metrics and identify growth opportunities",
+    "completed": false,
+    "priority": "high",
+    "category": "work",
+    "dueDate": "2024-01-15T09:00:00.000Z",
+    "createdAt": "2024-01-10T08:30:00.000Z"
+  },
+  {
+    "Id": 2,
+    "title": "Book dentist appointment",
+    "description": "Schedule routine cleaning and checkup",
+    "completed": false,
+    "priority": "medium",
+    "category": "health",
+    "dueDate": "2024-01-12T14:00:00.000Z",
+    "createdAt": "2024-01-08T10:15:00.000Z"
+  },
+  {
+    "Id": 3,
+    "title": "Buy groceries for weekend",
+    "description": "Get ingredients for dinner party on Saturday",
+    "completed": true,
+    "priority": "low",
+    "category": "shopping",
+    "dueDate": "2024-01-11T17:00:00.000Z",
+    "createdAt": "2024-01-09T16:45:00.000Z"
+  },
+  {
+    "Id": 4,
+    "title": "Update portfolio website",
+    "description": "Add recent projects and refresh design",
+    "completed": false,
+    "priority": "medium",
+    "category": "personal",
+    "dueDate": "2024-01-20T23:59:00.000Z",
+    "createdAt": "2024-01-05T12:00:00.000Z"
+  },
+  {
+    "Id": 5,
+    "title": "Prepare presentation for client meeting",
+    "description": "Create slides and gather supporting documents",
+    "completed": false,
+    "priority": "high",
+    "category": "work",
+    "dueDate": "2024-01-13T10:00:00.000Z",
+    "createdAt": "2024-01-11T09:20:00.000Z"
+  },
+  {
+    "Id": 6,
+    "title": "Call Mom for birthday planning",
+    "description": "Discuss plans for Dad's surprise party",
+    "completed": true,
+    "priority": "medium",
+    "category": "personal",
+    "dueDate": null,
+    "createdAt": "2024-01-07T18:30:00.000Z"
+  }
+]
